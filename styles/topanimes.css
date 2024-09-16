@@ -1,0 +1,70 @@
+/* Nav*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the container of anime items */
+.anime-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+}
+
+/* Styling for individual anime items */
+.anime-item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    max-width: 200px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Styling for anime images */
+.anime-item img {
+    width: 100%;
+    height: auto;
+}
